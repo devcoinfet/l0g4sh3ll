@@ -1,3 +1,3 @@
 usage
 -----------
-python3 log4shell.py filewithgetparams.txt huntress 778ae796-ff01-4111-8433-524afd313986
+python3 log4shell.py filewithgetparams.txt  778ae796-ff01-4111-8433-524afd313986
