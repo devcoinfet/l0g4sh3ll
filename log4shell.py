@@ -108,8 +108,8 @@ def get_fuzzing_headers(payload,default_headers):
         
 def sendDetectionRequest(url,time):
     try:
-    
-        headers = {'User-Agent':payload, 'Referer':payload}
+        #new mushtik attacks seen live i think havent tried yet but in theort looks correct
+        headers = {'User-Agent':payload, 'Referer':payload,'Authorization': 'Oauth '+payload,'Authorization': 'Bearer '+payload,'Authorization': 'Basic '+payload}
         fuzzies = get_fuzzing_headers(payload,headers)   
         url = url.strip()
         print('[{}] Testing {}'.format(url))
